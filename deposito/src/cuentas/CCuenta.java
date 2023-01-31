@@ -1,5 +1,10 @@
 package cuentas;
 
+
+/**
+ * @author david
+ *
+ */
 public class CCuenta {
 
 
@@ -18,15 +23,27 @@ public class CCuenta {
         cuenta=cue;
         saldo=sal;
     }
-
+    
+/**
+ * 
+ * @return
+ */
     public String getNombre() {
 		return nombre;
 	}
 
+    /**
+     * 
+     * @param nombre
+     */
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
 
+	/**
+	 * 
+	 * @return
+	 */
 	public String getCuenta() {
 		return cuenta;
 	}

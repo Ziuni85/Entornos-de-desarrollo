@@ -1,6 +1,11 @@
 package cuentas;
 
+/**
+ * @author david
+ *
+ */
 public class Main {
+
 
     public static void main(String[] args) throws Exception {
     	//Se crea el objeto cuenta1 al que hemos refactorizado (antes miCuenta)
@@ -12,6 +17,7 @@ public class Main {
       //Llamamos al método operativa_cuenta con parametro cantidad que engloba las líneas de código mas abajo comentadas al final de la clase main
         cuenta1.operativa_cuenta(500);
         System.out.print( cuenta1.estado());
+        
           
         //CODIGO ANTIGUO COMENTADO
         //Cambio hecho para realizar el commit.
